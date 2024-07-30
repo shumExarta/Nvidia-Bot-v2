@@ -1,0 +1,52 @@
+version: "3.1"
+
+intents:
+  - greet
+  - looking
+  - available
+  - show_me
+  - pick_up
+  - browsing
+  - affirm
+  - deny
+  - rag
+  - describe_product
+
+entities:
+  - product
+
+slots:
+  product:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: product
+
+responses:
+  utter_greet:
+  - text: "Hey, welcome to Turtle AR! My name is Zeniva, how can I help you today?"
+
+  utter_sure:
+  - text: "Sure! We have products ranging from a professional grade or products suitable for more casual usage. To help you find the perfect pair, could you tell me what you will be using them for?"
+
+  utter_intrested:
+  - text: "Would you be interested in trying any of our VR or AR glasses?"
+
+  utter_available:
+  - text: "Oh, cool! In that case I have two pairs of AR glasses that might interest you. Here are our Aqua Gaze. They have a customisable interface and use advanced eye-tracking to adapt to any creative and collaborative needs,so you can always carry your work on the go. Then we have Mind Lens. These come equipped with real-time mapping and location-based overlay, which makes them the ideal urban companion for outdoor exploration. Which pair would you like to try first?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+actions:
+  - action_move_to
+  - action_pick_up
+  - action_rag
+  - action_describe
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

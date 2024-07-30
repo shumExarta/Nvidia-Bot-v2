@@ -1,0 +1,298 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey zeniva
+      - hello
+      - hey
+      - hi
+      - hey there
+      - hi there
+      - hello zeniva
+      - hi zeniva
+      - hello there zeniva how do you do
+      - good morning zeniva
+      - good evening zeniva
+      - hey there zeniva
+      - goodmorning zeniva
+      - goodevening zeniva
+      - good afternoon zeniva
+
+  - intent: looking
+    examples: |
+      - i am looking for a pair of AR glasses
+      - i'm on the hunt for a new pair of Augmented Reality AR glasses. Any suggestions?
+      - could you help me find some AR glasses?
+      - can you recommend any good AR glasses?
+      - what are the best AR glasses on the market right now?
+      - i'm interested in buying AR glasses. Any advice?
+      - where can i find high-quality augmented reality glasses?
+      - do you know of any affordable AR glasses?
+      - i'm thinking about getting AR glasses. Which ones should i consider?
+      - can you help me choose a pair of AR glasses?
+      - i'm looking for AR glasses for gaming. Any suggestions?
+      - what are the top-rated AR glasses for professional use?
+      - can you provide a list of the latest AR glasses available?
+
+  - intent: available
+    examples: |
+      - i just want to see what's out there
+      - just wanna have a look around
+      - just want to see what do you have in store
+      - I just want to take a look at what you have/
+      - Just curious about what's available/
+      - I just want to explore your products/
+      - Just interested in seeing your offerings/
+      - I just want to check out your inventory/
+      - Just here to see what's in stock/
+      - I just want to see your selection/
+      - Just taking a look at what you offer/
+      - I just want to browse your items/
+      - Just interested in what you have/
+
+  - intent: show_me
+    examples: |
+      - can i see the [Swift Vision Pro](product)
+      - can i see the [swift vision Pro](product)
+      - can i please see the [Aqua Gaze Pro](product)
+      - i would like to see the [Mind Lens Pro](product)
+      - i would like to see the [Mind Lens](product)
+      - can i see the [Terra Turtle Pro](product)
+      - can i see the [Terra Turtle](product)
+      - can you show me the [Swift Vision](product)?
+      - i'd like to check out the [Aqua Gaze Pro](product).
+      - show me the [Mind Lens Pro](product)
+      - let me see the [Terra Turtle Pro](product)
+      - could you display the [Swift Vision](product)
+      - is it possible to view the [Aqua Gaze Pro](product)?
+      - please bring up the [Mind Lens Pro](product).
+      - i want to look at the [Terra Turtle Pro](product)
+      - can i take a look at the [Swift Vision](product)
+      - may i see the [Aqua Gaze Pro](product)
+      - can i view the [Mind Lens Pro](product)
+      - could you show me the [Terra Turtle Pro](product)
+      - i'd like to see the [Swift Vision](product)
+      - can you let me view the [Aqua Gaze Pro](product)
+      - show me the [Mind Lens Pro](product) please
+      - let me view the [Terra Turtle Pro](product)
+      - can i get a look at the [Swift Vision](product)
+      - i'd like to see the [Aqua Gaze Pro](product)
+      - would you show me the [Mind Lens Pro](product)
+      - is it possible to see the [Terra Turtle Pro](product)
+      - can you let me see the [Swift Vision](product)
+      - i would like to look at the [Aqua Gaze Pro](product)
+      - can you pull up the [Mind Lens Pro](product)
+      - could you show me the [Terra Turtle Pro](product)
+      - can you bring up the [Swift Vision](product)
+      - may i view the [Aqua Gaze Pro](product)
+      - i'd like to see the [Mind Lens Pro](product) please
+      - show me the [Terra Turtle Pro](product) now
+      - can i check out the [Swift Vision](product)
+      - would you let me see the [Aqua Gaze Pro](product)
+      - please show me the [Mind Lens Pro](product)
+      - could i see the [Terra Turtle Pro](product)
+      - can you display the [Swift Vision](product)
+      - i want to see the [Aqua Gaze Pro](product) now
+      - can you show me the [mind lens pro](product) please
+      - i'd like to view the [Terra Turtle Pro](product)
+      - may i look at the [Swift Vision](product)
+      - would you display the [Aqua Gaze Pro](product)
+      - can i have a look at the [mind lens pro](product)
+      - could you let me see the [Terra Turtle Pro](product)
+      - i would like to see the [Swift Vision](product) now.
+      - could you show me the [Aqua Gaze Pro](product)
+      - can you pull up the [mind lens pro](product)
+      - i'd like to check out the [Terra Turtle Pro](product) please
+      - can you show me the [Swift Vision](product) pro
+      - could you display the [Aqua Gaze Pro](product)
+      - i want to view the [mind lens pro](product) now
+      - may i see the [Terra Turtle Pro](product)
+      - please show me the [Swift Vision](product) now.
+      - i'd like to see the [Aqua Gaze Pro](product) right away
+
+  - intent: pick_up
+    examples: |
+      - please pick up [Aqua Gaze](product)
+      - please pick up [Aqua Gaze Pro](product)
+      - pick up [Mind Lens](product)
+      - pick up [Mind Lens pro](product)
+      - i would like to pick up [Swift Vision](product)
+      - i would like to pick up [Swift Vision Pro](product)
+      - please pick up [Terra Turtle](product)
+      - pick up [Terra Turtle Pro](product)
+      - please pick up the [Swift Vision](product)
+      - pick up the [Aqua Gaze](product) for me
+      - i'd like to pick up the [Mind Lens](product)
+      - could you please pick up the [Terra Turtle Pro](product)
+      - i want to pick up the [Swift Vision Pro](product)
+      - please pick up the [Aqua Gaze Pro](product) for me
+      - pick up the [Mind Lens Pro](product) please
+      - can you pick up the [Terra Turtle Pro](product)
+      - i'd like to pick up the [Aqua Gaze](product) now
+      - pick up the [Swift Vision](product) please
+      - could you pick up the [Mind Lens](product) for me
+      - please pick up the [Terra Turtle](product) now
+      - i would like to pick up the [Swift Vision Pro](product) now
+      - pick up the [Aqua Gaze Pro](product) for me
+      - can you pick up the [Mind Lens pro](product) please
+      - please pick up the [Terra Turtle Pro](product)
+      - i'd like to pick up the [Swift Vision](product) please
+      - pick up the [Aqua Gaze](product) now
+      - can you please pick up the [Mind Lens](product)
+      - please pick up the [Terra Turtle](product) for me
+      - i want to pick up the [Swift Vision Pro](product) now
+      - could you pick up the [Aqua Gaze Pro](product) please
+      - pick up the [Mind Lens pro](product) now
+      - please pick up the [Terra Turtle Pro](product) for me
+      - i'd like to pick up the [Aqua Gaze](product) please
+      - pick up the [Swift Vision](product) for me
+      - can you pick up the [Mind Lens](product) now
+      - please pick up the [Terra Turtle](product) please
+      - i would like to pick up the [Swift Vision Pro](product) please
+      - pick up the [Aqua Gaze Pro](product) now
+      - can you please pick up the [Mind Lens pro](product) for me
+      - please pick up the [Terra Turtle Pro](product) now
+      - i'd like to pick up the [Swift Vision](product) now
+      - pick up the [Aqua Gaze](product) please
+      - can you pick up the [Mind Lens](product) for me
+      - please pick up the [Terra Turtle](product) now
+      - i want to pick up the [Swift Vision Pro](product) for me
+      - could you pick up the [Aqua Gaze Pro](product) now
+      - pick up the [Mind Lens pro](product) please
+      - please pick up the [Terra Turtle Pro](product) for me
+      - i'd like to pick up the [Aqua Gaze](product) for me
+      - pick up the [Swift Vision](product) now
+      - can you pick up the [Mind Lens](product) please
+      - please pick up the [Terra Turtle](product) for me
+      - i would like to pick up the [Swift Vision Pro](product) now
+      - pick up the [Aqua Gaze Pro](product) please
+      - can you please pick up the [Mind Lens pro](product) now
+      - please pick up the [Terra Turtle Pro](product) for me
+      - i'd like to pick up the [Swift Vision](product) for me
+      - pick up the [Aqua Gaze](product) now
+      - can you pick up the [Mind Lens](product) please
+      - please pick up the [Terra Turtle](product) for me
+      - i want to pick up the [Swift Vision Pro](product) now
+      - could you pick up the [Aqua Gaze Pro](product) please
+      - pick up the [Mind Lens pro](product) for me
+      - please pick up the [Terra Turtle Pro](product) now
+      - i'd like to pick up the [Swift Vision](product) now
+      - pick up the [Aqua Gaze](product) for me
+      - can you pick up the [Mind Lens](product) please
+      - please pick up the [Terra Turtle](product) for me
+
+  - intent: describe_product
+    examples: |
+      - tell me more about this product
+      - i want to know more about this
+      - i want to know more about this product
+      - Can you give me more details about this item?
+      - What can you tell me about this product?
+      - I need more information on this product.
+      - Could you provide more details about this product?
+      - Tell me everything you know about this product.
+      - I'd like to learn more about this product.
+      - What does this product offer?
+      - Can you elaborate on this product's features?
+      - I'm interested in this product, can you tell me more?
+      - What are the benefits of this product?
+      - How does this product work?
+      - Can you explain this product to me?
+      - What makes this product unique?
+      - What are the specifications of this product?
+      - What should I know about this product?
+      - Can you provide a description of this product?
+      - What are the key features of this product?
+      - I'm curious about this product, tell me more.
+      - How does this product compare to others?
+      - What are the main functions of this product?
+
+  - intent: browsing
+    examples: |
+      - i am just browsing
+      - just taking a look around at the moment
+      - i'm casually exploring what's available
+      - just window-shopping
+      - just checking out what you have
+      - i'm just looking around
+      - i'm just seeing what's out there
+      - Not looking to buy right now, just browsing
+      - Just exploring my options
+      - i'm only looking around for now
+      - Just checking out the selections
+      - i'm just browsing through the items
+      - Just having a look around
+      - i'm just scoping things out
+      - Just taking a glance at what's available
+      - Only browsing today
+      - Just taking a peek at your products
+      - i'm just window-shopping for now
+      - Just looking to see what's new
+      - i'm not buying, just browsing
+      - Only looking around today
+      - Just checking the variety you offer
+      - i'm just exploring your collection
+      - Just seeing what you have in store
+      - Not buying, just taking a look
+      - i'm only browsing your catalog
+      - Just checking out your inventory
+      - Just taking a look at your stock
+      - i'm just perusing what's available
+      - Just taking a tour of your products
+      - i'm just browsing without intent to buy
+      - Only looking around, not shopping seriously
+      - Just seeing what you have to offer
+      - i'm just having a look at your offerings
+      - Just glancing through your items
+      - Just browsing casually
+      - i'm just exploring what's in store
+      - Only taking a look, not buying
+      - Just having a casual look around
+      - i'm just viewing your products
+      - Just examining what's available
+      - i'm just taking a casual look
+      - Just looking around for now
+      - i'm only glancing at your products
+      - Just browsing your selection
+      - Just taking a quick look at what's here
+      - i'm just scanning through your items
+      - Just checking out your stuff
+      - i'm just looking at what you offer
+      - Only browsing your products for now
+      - Just inspecting your inventory
+      - i'm just seeing what you have in stock
+      - Just taking a gander at your items
+      - i'm just eyeing what's available
+      - Just checking the products you have
+      - i'm just browsing through your collection
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - i don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: rag
+    examples: |
+      - return
+      - refund
+      - when can i return something
+      - what is your store about
+      - what is the price of swift vision
+      - what is the return policy
+      - what is your shipping policy
+      - what are your store features

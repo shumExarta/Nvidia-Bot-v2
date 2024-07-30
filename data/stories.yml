@@ -1,0 +1,46 @@
+version: "3.1"
+
+stories:
+
+- story: GREETING
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - checkpoint: check_user_answer
+
+- story: CUSTOMER SAYS WHAT THEY WANT
+  steps:
+  - checkpoint: check_user_answer
+  - intent: looking
+  - action: utter_sure
+
+- story: CUSTOMER SAYS THEY ARE BROWSING
+  steps:
+  - checkpoint: check_user_answer
+  - intent: browsing
+  - action: utter_intrested
+
+- story: CUSTOMER WANT TO LOOK ONLY
+  steps:
+  - intent: available
+  - action: utter_available
+
+- story: CUSTOMER ASKS FOR A PRODUCT
+  steps:
+  - intent: show_me
+  - action: action_move_to
+
+- story: CUSTOMER ASKS MORE ABOUT A PRODUCT
+  steps:
+  - intent: describe_product
+  - action: action_describe
+
+- story: CUSTOMER ASKS TO PICK UP
+  steps:
+  - intent: pick_up
+  - action: action_pick_up
+
+- story: GETTING ANSWER FROM RAG
+  steps:
+  - intent: rag
+  - action: action_rag
