@@ -11,6 +11,8 @@ intents:
   - deny
   - rag
   - describe_product
+  - out_of_scope
+  - not_interested
 
 entities:
   - product
@@ -41,11 +43,16 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_please_rephrase:
+  - text: "Sorry, I didn't understand that. Could you please rephrase?"
+
 actions:
   - action_move_to
+  - action_place_item
   - action_pick_up
   - action_rag
   - action_describe
+  - action_default_fallback
 
 session_config:
   session_expiration_time: 60

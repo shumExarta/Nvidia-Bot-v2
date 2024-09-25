@@ -1,9 +1,64 @@
 [
     {
         "action": "Null",
+        "additionalInformation": "Shopkeeperformation",
+        "bot_id": "",
+        "desc": "",
+        "iD": "Shopkeeper_vg9967",
+        "itemTransform": {
+            "rotation": {
+                "w": 0.999048221596601,
+                "x": 0.0,
+                "y": -0.0,
+                "z": 0.043619387027663194
+            },
+            "scale3D": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "translation": {
+                "x": 1959.896234892471,
+                "y": 671.3262380218978,
+                "z": 670.1084750936478
+            }
+        },
+        "name": "BP_ShopkeeperFemale",
+        "price": 0.0
+    },
+    {
+        "action": "Null",
         "additionalInformation": "",
-        "desc": "Step into virtual worlds with the Mind Lens. Designed for comfort and ease of use, it provides an excellent introduction to VR. With its clear visuals and responsive controls, this device is perfect for casual VR experiences and light gaming.",
-        "iD": "554U45S",
+        "bot_id": "",
+        "desc": "Swift Vision redefine visual fidelity and comfort. Whether you're delving into virtual worlds or enhancing productivity with holographic displays, these glasses promise an unmatched AR journey.",
+        "iD": "Glasses_bV1706",
+        "itemTransform": {
+            "rotation": {
+                "w": 0.7057925562302926,
+                "x": 0.04309145685502427,
+                "y": 0.043091456330689185,
+                "z": 0.7057925476422382
+            },
+            "scale3D": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "translation": {
+                "x": 2138.6604308121387,
+                "y": 815.5688324013839,
+                "z": 679.701022
+            }
+        },
+        "name": "Swift VIsion Pro",
+        "price": 599.989990234375
+    },
+    {
+        "action": "Null",
+        "additionalInformation": "",
+        "bot_id": "",
+        "desc": "Discover the world anew with Mind Lens glasses. Equipped with real-time mapping and location-based overlays, these glasses are your ultimate outdoor adventure and urban exploration companion.",
+        "iD": "Glasses_Go9836",
         "itemTransform": {
             "rotation": {
                 "w": 0.7057925562302926,
@@ -23,13 +78,41 @@
             }
         },
         "name": "Mind Lens",
-        "price": 0.0
+        "price": 399.989990234375
     },
     {
         "action": "Null",
         "additionalInformation": "",
-        "desc": "Unlock the full potential of virtual reality with the Mind Lens Pro. This premium device offers ultra-high resolution displays, spatial audio, and precise tracking, creating a deeply immersive VR environment. Ideal for gaming, training, and simulation, the Pro version ensures an unparalleled experience.",
-        "iD": "L41X2LW",
+        "bot_id": "",
+        "desc": "Aqua Gaze glasses lead AR innovation. With advanced eye-tracking and customizable interfaces, these glasses adapt seamlessly to your creative, collaborative, or consumption needs.",
+        "iD": "Glasses_pu1586",
+        "itemTransform": {
+            "rotation": {
+                "w": 1.2145339331325857e-08,
+                "x": 7.415215657036453e-10,
+                "y": 0.06094052233602949,
+                "z": 0.9981413991701834
+            },
+            "scale3D": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "translation": {
+                "x": 1489.0378661873112,
+                "y": 904.1685152265318,
+                "z": 690.0940276027447
+            }
+        },
+        "name": "Terra Turtle Pro",
+        "price": 999.989990234375
+    },
+    {
+        "action": "Null",
+        "additionalInformation": "",
+        "bot_id": "",
+        "desc": "Discover the world anew with Mind Lens glasses. Equipped with real-time mapping and location-based overlays, these glasses are your ultimate outdoor adventure and urban exploration companion.",
+        "iD": "Glasses_Bu767",
         "itemTransform": {
             "rotation": {
                 "w": 0.7057925562302926,
@@ -49,19 +132,20 @@
             }
         },
         "name": "Mind Lens Pro",
-        "price": 0.0
+        "price": 649.989990234375
     },
     {
         "action": "Null",
         "additionalInformation": "",
-        "desc": "Explore the depths of augmented reality with the Aqua Gaze Pro. Featuring waterproof construction and advanced optical technology, this device is perfect for water-based environments. Whether you're diving, swimming, or exploring wet terrains, the Aqua Gaze Pro delivers exceptional performance and clarity.",
-        "iD": "56GO23",
+        "bot_id": "",
+        "desc": "Aqua Gaze glasses lead AR innovation. With advanced eye-tracking and customizable interfaces, these glasses adapt seamlessly to your creative, collaborative, or consumption needs.",
+        "iD": "Glasses_dK4168",
         "itemTransform": {
             "rotation": {
-                "w": 1.2145339331325857e-08,
-                "x": 7.415215657036453e-10,
-                "y": 0.06094052233602949,
-                "z": 0.9981413991701834
+                "w": 0.7057925581148171,
+                "x": 0.04309145665197397,
+                "y": 0.04309145589988617,
+                "z": 0.7057925457964132
             },
             "scale3D": {
                 "x": 1.0,
@@ -69,19 +153,20 @@
                 "z": 1.0
             },
             "translation": {
-                "x": 1489.0378661873112,
-                "y": 904.1685152265318,
-                "z": 690.0940276027447
+                "x": 2138.660431,
+                "y": 1262.118754,
+                "z": 679.701022
             }
         },
-        "name": "Aqua Gaze Pro",
-        "price": 0.0
+        "name": "Terra Turtle",
+        "price": 799.989990234375
     },
     {
         "action": "Null",
         "additionalInformation": "",
-        "desc": "The Swift Vision offers a gateway to immersive AR experiences. With high-definition displays and intuitive controls, it brings your digital content to life. Ideal for everyday use, this model combines affordability with functionality, making it a great choice for new AR enthusiasts.",
-        "iD": "VN52NS",
+        "bot_id": "",
+        "desc": "Swift Vision redefine visual fidelity and comfort. Whether you're delving into virtual worlds or enhancing productivity with holographic displays, these glasses promise an unmatched AR journey.",
+        "iD": "Glasses_SY1056",
         "itemTransform": {
             "rotation": {
                 "w": 0.7057925562302926,
@@ -96,44 +181,19 @@
             },
             "translation": {
                 "x": 2138.660431,
-                "y": 1012.1203057140297,
-                "z": 679.7010223525964
+                "y": 746.925000034808,
+                "z": 679.701022
             }
         },
         "name": "Swift Vision",
-        "price": 0.0
+        "price": 499.989990234375
     },
     {
         "action": "Null",
         "additionalInformation": "",
-        "desc": "Dive into mixed reality with the Terra Turtle Pro. Known for its durability and high performance, this device is perfect for both indoor and outdoor use. The Pro version comes equipped with advanced sensors and a powerful processor, ensuring smooth and responsive interactions.",
-        "iD": "9OBISW",
-        "itemTransform": {
-            "rotation": {
-                "w": 0.7057925562302926,
-                "x": 0.04309145685502427,
-                "y": 0.043091456330689185,
-                "z": 0.7057925476422382
-            },
-            "scale3D": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-            },
-            "translation": {
-                "x": 2138.660431,
-                "y": 751.925000034808,
-                "z": 679.701022403424
-            }
-        },
-        "name": "Terra Turtle Pro",
-        "price": 0.0
-    },
-    {
-        "action": "Null",
-        "additionalInformation": "",
-        "desc": "The Terra Turtle provides a reliable AR experience with robust construction and user-friendly features. Its versatile design makes it suitable for a variety of applications, from education to industrial use. Enjoy dependable performance and immersive visuals with this solid choice.",
-        "iD": "PZQ541",
+        "bot_id": "",
+        "desc": "Aqua Gaze glasses lead AR innovation. With advanced eye-tracking and customizable interfaces, these glasses adapt seamlessly to your creative, collaborative, or consumption needs.",
+        "iD": "Glasses_aw5059",
         "itemTransform": {
             "rotation": {
                 "w": 0.7057925562302926,
@@ -152,14 +212,15 @@
                 "z": 679.7010230405909
             }
         },
-        "name": "Terra Turtle",
-        "price": 0.0
+        "name": "Aqua Gaze",
+        "price": 599.989990234375
     },
     {
         "action": "Null",
         "additionalInformation": "",
-        "desc": "Experience cutting-edge augmented reality with the Swift Vision Pro. Featuring a sleek design and advanced optics, this device provides crystal-clear visuals and seamless integration with your digital world. The Pro version includes enhanced processing power and extended battery life, perfect for both professional and entertainment purposes.",
-        "iD": "65FDG5",
+        "bot_id": "",
+        "desc": "Aqua Gaze glasses lead AR innovation. With advanced eye-tracking and customizable interfaces, these glasses adapt seamlessly to your creative, collaborative, or consumption needs.",
+        "iD": "Glasses_Ys6556",
         "itemTransform": {
             "rotation": {
                 "w": 0.7057925562302926,
@@ -174,11 +235,38 @@
             },
             "translation": {
                 "x": 2138.660431,
-                "y": 815.5688324013839,
-                "z": 679.7010224810601
+                "y": 1012.1203057140297,
+                "z": 679.7010223525964
             }
         },
-        "name": "Swift Vision Pro",
+        "name": "Aqua Gaze Pro",
+        "price": 699.989990234375
+    },
+    {
+        "action": "Null",
+        "additionalInformation": "PlayerInformation",
+        "bot_id": "",
+        "desc": "",
+        "iD": "Player_eH7975",
+        "itemTransform": {
+            "rotation": {
+                "w": 0.7560801745123331,
+                "x": -0.0,
+                "y": 0.0,
+                "z": -0.6544790063167802
+            },
+            "scale3D": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "translation": {
+                "x": 2053.4653534077106,
+                "y": 927.3050867501604,
+                "z": 667.3314113219309
+            }
+        },
+        "name": "BP_TestPlayer_Character0",
         "price": 0.0
     }
 ]

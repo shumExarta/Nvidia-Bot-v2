@@ -54,7 +54,6 @@ nlu:
   - intent: show_me
     examples: |
       - can i see the [Swift Vision Pro](product)
-      - can i see the [swift vision Pro](product)
       - can i please see the [Aqua Gaze Pro](product)
       - i would like to see the [Mind Lens Pro](product)
       - i would like to see the [Mind Lens](product)
@@ -83,7 +82,6 @@ nlu:
       - can you let me see the [Swift Vision](product)
       - i would like to look at the [Aqua Gaze Pro](product)
       - can you pull up the [Mind Lens Pro](product)
-      - could you show me the [Terra Turtle Pro](product)
       - can you bring up the [Swift Vision](product)
       - may i view the [Aqua Gaze Pro](product)
       - i'd like to see the [Mind Lens Pro](product) please
@@ -102,7 +100,6 @@ nlu:
       - could you let me see the [Terra Turtle Pro](product)
       - i would like to see the [Swift Vision](product) now.
       - could you show me the [Aqua Gaze Pro](product)
-      - can you pull up the [mind lens pro](product)
       - i'd like to check out the [Terra Turtle Pro](product) please
       - can you show me the [Swift Vision](product) pro
       - could you display the [Aqua Gaze Pro](product)
@@ -110,6 +107,64 @@ nlu:
       - may i see the [Terra Turtle Pro](product)
       - please show me the [Swift Vision](product) now.
       - i'd like to see the [Aqua Gaze Pro](product) right away
+      - show me the [Mind Lens](product)
+      - can you show me the [Mind Lens](product)?
+      - can you show me the [Mind Lens Pro](product)?
+      - let me see the [Mind Lens](product)
+      - let me see the [Mind Lens Pro](product)
+      - i'd like to see the [Mind Lens](product)
+      - i'd like to see the [Mind Lens Pro](product)
+      - can i see the [Mind Lens](product)?
+      - can i see the [Mind Lens Pro](product)?
+      - i want to see the [Mind Lens](product)
+      - i want to see the [Mind Lens Pro](product)
+      - may i see the [Mind Lens](product)?
+      - may i see the [Mind Lens Pro](product)?
+      - please show me the [Mind Lens](product)
+      - show me the [Terra Turtle](product)
+      - show me the [Terra Turtle Pro](product)
+      - show me the [Aqua Gaze](product)
+      - show me the [Aqua Gaze Pro](product)
+      - can you show me the [Aqua Gaze](product)?
+      - can you show me the [Aqua Gaze Pro](product)?
+      - can you show me the [Swift Vision Pro](product)?
+      - i'd like to see the [Swift Vision Pro](product)
+      - show me the [Swift Vision](product)
+      - show me the [Swift Vision Pro](product)
+      - please show me the [Swift Vision](product)
+      - please show me the [Swift Vision Pro](product)
+      - let me see the [Swift Vision](product)
+      - let me see the [Swift Vision Pro](product)
+      - can you show me the [Terra Turtle](product)?
+      - can you show me the [Terra Turtle Pro](product)?
+      - i'd like to see the [Terra Turtle](product)
+      - i'd like to see the [Terra Turtle Pro](product)
+      - let me see the [Terra Turtle](product)
+      - please show me the [Terra Turtle](product)
+      - please show me the [Terra Turtle Pro](product)
+      - i'd like to see the [Aqua Gaze](product)
+      - let me see the [Aqua Gaze](product)
+      - let me see the [Aqua Gaze Pro](product)
+      - please show me the [Aqua Gaze](product)
+      - please show me the [Aqua Gaze Pro](product)
+      - can i see the [Aqua Gaze](product)?
+      - can i see the [Aqua Gaze Pro](product)?
+      - can i see the [Swift Vision](product)?
+      - can i see the [Swift Vision Pro](product)?
+      - can i see the [Terra Turtle](product)?
+      - can i see the [Terra Turtle Pro](product)?
+      - i want to see the [Aqua Gaze](product)
+      - i want to see the [Aqua Gaze Pro](product)
+      - may i see the [Aqua Gaze](product)?
+      - may i see the [Aqua Gaze Pro](product)?
+      - i want to see the [Swift Vision](product)
+      - i want to see the [Swift Vision Pro](product)
+      - may i see the [Swift Vision](product)?
+      - may i see the [Swift Vision Pro](product)?
+      - i want to see the [Terra Turtle](product)
+      - i want to see the [Terra Turtle Pro](product)
+      - may i see the [Terra Turtle](product)?
+      - may i see the [Terra Turtle Pro](product)?
 
   - intent: pick_up
     examples: |
@@ -186,7 +241,7 @@ nlu:
     examples: |
       - tell me more about this product
       - i want to know more about this
-      - i want to know more about this product
+      - i want to know more about this product 
       - Can you give me more details about this item?
       - What can you tell me about this product?
       - I need more information on this product.
@@ -285,14 +340,223 @@ nlu:
       - don't like that
       - no way
       - not really
+      - hell with you
 
   - intent: rag
     examples: |
+      - i want to know store policies
+      - provide me store policies
+      - can you give me store policies
+      - want to know return and refund policy
+      - do you have full refund or exchange policy?
+      - is this store has 30-days returns policy?
+      - is i am eligible for 30 days return or refund policy?
+      - what is your refund and return policy?
+      - what are the conditions for a refund?
+      - can i exchange an item i bought?
+      - what is the process for returning a product?
+      - how do i return a product?
+      - what if i'm not happy with my purchase?
+      - can i get a refund after 30 days?
+      - is the refund policy applicable to all products?
+      - are there any products that cannot be returned?
+      - is there a time limit for refunds?
+      - what is the time frame for returning a product?
+      - what is the warranty on your products?
+      - can you tell me about the warranty?
+      - do your products come with a warranty?
+      - does this product come with a manufacturer warranty?
+      - how long is the warranty period?
+      - is there a warranty on this item?
+      - what are the warranty details for this product?
+      - where can i find the warranty information?
+      - does the warranty cover all products?
+      - is the manufacturer's warranty included?
+      - what does the warranty cover?
+      - how do i claim the warranty?
+      - are there any exclusions to the warranty?
+      - can i extend the warranty period?
+      - do all your products come with warranty?
+      - do you offer worldwide shipping?
+      - what are the shipping options available?
+      - how much does shipping cost?
+      - what are the delivery times for shipping?
+      - can i get expedited shipping?
+      - how long does it take for delivery?
+      - what is the shipping rate to my country?
+      - are there any additional fees for shipping?
+      - do you offer free shipping?
+      - what shipping methods do you use?
+      - can i change my shipping method?
+      - are there any charges for shipment?
+      - what are the shipping policies?
+      - i want to expedite my shipping process
+      - are there any extra charges for fast shipping?
+      - i want fast shippings
+      - is there any customer support available?
+      - i have some questions
+      - i have some concerns
+      - i want immediate help
+      - i want to contact to ask some questions
+      - how can i contact customer support?
+      - i need help with my order.
+      - can i talk to someone from customer support?
+      - what is your customer support email?
+      - how do i reach customer service?
+      - i have a question about my purchase.
+      - can i get assistance with a product?
+      - what is your customer support phone number?
+      - do you offer live chat support?
+      - how do i get in touch with support?
+      - can you help me with my issue?
+      - i need to speak with customer service.
+      - is customer support available 24/7?
+      - how do you ensure product quality?
+      - what are your quality standards?
+      - what if i receive a defective product?
+      - can i return a product if it's not working properly?
+      - how do i report an issue with my purchase?
+      - how do you handle quality complaints?
+      - is there a quality guarantee?
+      - what should i do if i have a problem with my purchase?
+      - how do you make sure your products are high quality?
+      - i have issues with my purchase
+      - how can i know that turtle ar meet some quality standards?
+      - do you have some quality standards for your product?
+      - i faced some performance issues
+      - if i faced some quality issues, what should i do?
+      - can i get a replacement for a defective item?
+      - i have issues with my product
+      - how quickly do you resolve quality related issues?
+      - tell me about turtle ar.
+      - can you give me some information about turtle ar?
+      - what does turtle ar do?
+      - i'd like to know more about turtle ar.
+      - what makes turtle ar unique?
+      - can you tell me what turtle ar offers?
+      - what products does turtle ar sell?
+      - how is turtle ar different from other retailers?
+      - why should i shop at turtle ar?
+      - what kind of technology does turtle ar specialize in?
+      - what sets turtle ar apart from other stores?
+      - what is the purpose of turtle ar?
+      - how does turtle ar serve its customers?
+      - can you explain the services turtle ar provides?
+      - what kind of customer service does turtle ar offer?
+      - how does turtle ar help virtual reality and augmented reality enthusiasts?
+      - what kind of products can i find at turtle ar?
+      - how does turtle ar contribute to the vr and ar community?
+      - what zeniva can do?
+      - tell me about zeniva.
+      - can you explain what zeniva does?
+      - what can zeniva help me with?
+      - how does zeniva work?
+      - what are zeniva's capabilities?
+      - what makes zeniva different from other assistants?
+      - how can zeniva enhance my shopping experience?
+      - how does zeniva provide personalized recommendations?
+      - can zeniva assist me with product selection?
+      - is zeniva available 24/7?
+      - how can zeniva help me find the right product?
+      - what kind of recommendations can zeniva offer?
+      - how does zeniva understand my preferences?
+      - can zeniva guide me to the best products?
+      - what information can zeniva provide about turtle ar products?
+      - how does zeniva use natural language processing?
+      - what kind of product knowledge does zeniva have?
+      - how does zeniva analyze my browsing history?
+      - can zeniva assist me outside regular business hours?
+      - how can zeniva make shopping easier for me?
+      - what products can zeniva recommend for gamers?
+      - can zeniva suggest products based on my budget?
+      - how does zeniva handle product queries?
+      - tell me about the swift vision.
+      - what are the features of swift vision pro?
+      - can you describe the aqua gaze?
+      - what is the price of aqua gaze pro?
+      - how much does the mind lens cost?
+      - do you have mind lens pro?
+      - what colors does the terra turtle come in?
+      - i want details on the terra turtle pro.
+      - how is the aqua gaze pro different from aqua gaze?
+      - what are the specifications of the mind lens pro?
+      - is the terra turtle pro suitable for outdoor use?
+      - i want waterproof headset?
+      - can you provide the price for the swift vision?
+      - what are the colour options for the aqua gaze pro?
+      - what makes the mind lens pro ideal for gaming?
+      - what are the available colors for terra turtle?
+      - how much does terra turtle pro cost?
+      - can you explain the features of the swift vision pro?
+      - what is the difference between mind lens and mind lens pro?
+      - i want a ar headset with eye-tracking and customizable features?
       - return
       - refund
       - when can i return something
+      - is there any refund policy
       - what is your store about
-      - what is the price of swift vision
       - what is the return policy
       - what is your shipping policy
       - what are your store features
+      - what is the price of swift vision
+      - can i know more about swift vision
+      - what are the colours available for swift vision
+      - what are the colours available for terra turtle
+      - what can zeniva do
+      - do you provide any warranty
+      - will i get any customer support
+      - how can i know the quality is good
+
+  - intent: out_of_scope
+    examples: |
+      - I want to order food
+      - What is 2 + 2?
+      - Who's the US President?
+      - what's the meaning of life?
+      - can you tell me a joke about bananas?
+      - what time does the movie start?
+      - why is the sky blue?
+      - how do I bake a cake?
+      - tell me about quantum physics
+      - what's the capital of Mars?
+      - can you recommend a good book?
+      - how do I fix my car engine?
+      - what's the latest news in the stock market?
+      - can you speak French?
+      - what's your favorite color?
+      - do you know any good restaurants nearby?
+      - how do I get to the nearest train station?
+      - what's the weather like in Paris?
+      - can you play some music?
+      - how do I change a light bulb?
+      - what's the population of Antarctica?
+      - where's the best place to buy a coffee?
+      - tell me a story about dragons
+      - do you believe in aliens?
+      - can you do my homework for me?
+      - what should I wear today?
+      - how do I improve my public speaking skills?
+      - what is the square root of 49?
+      - can you dance?
+      - why do cats purr?
+      - what's the recipe for spaghetti?
+      - who is the president of the moon?
+      - how do I solve a Rubik's cube?
+
+  - intent: not_interested
+    examples: |
+      - i am not interested.
+      - i am not interested in this product.
+      - no, i don't want it.
+      - i don't think i'm interested.
+      - i'm not interested in buying this.
+      - this doesn't appeal to me.
+      - i'm not really interested.
+      - i don't like this product.
+      - i don't want this product.
+      - not interested at all.
+      - i don't like this.
+      - this is not for me.
+      - it's not what i need right now.
+      - it is not up to my need.
+      - it is not up to my specifications.

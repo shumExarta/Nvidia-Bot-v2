@@ -40,7 +40,17 @@ stories:
   - intent: pick_up
   - action: action_pick_up
 
+- story: CUSTOMER ASKS TO PICK UP
+  steps:
+  - intent: not_interested
+  - action: action_place_item
+
 - story: GETTING ANSWER FROM RAG
   steps:
   - intent: rag
   - action: action_rag
+
+# - story: GETTING ANSWER FROM LANG GRAPH
+#   steps:
+#   - intent: out_of_scope
+#   - action: action_handle_fallback
